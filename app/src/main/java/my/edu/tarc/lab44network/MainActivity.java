@@ -34,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
     private ProgressDialog pDialog;
     //TODO: Please update the URL to point to your own server
     private static String GET_URL = "https://bait2073.000webhostapp.com/select_course.php";
-    RequestQueue queue;
+    RequestQueue queue; // A queue in the web server
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
